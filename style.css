@@ -266,3 +266,55 @@ align-items: center;
     font-size: 1.5rem;
     color: red;
 }
+.service .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+    background-color: black;
+}
+.service .box-container .box{
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    box-shadow:  0 .5rem 1.5rem rgba(0,0,0,.1);
+    overflow: hidden;
+    
+}
+.service .box-container .box .img{
+    height: 25rem;
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.service .box-container .box .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+.service .box-container .box .img .fa-heart{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    color: black;
+}
+.service .box-container .box .img .fa-heart:hover{
+    background-color: red;
+    color: #fff;
+}
+.service .box-container .box .content{
+    padding: 2rem;
+    padding-top: 0;
+}
+.service .box-container .box.content{
+    padding: 2rem;
+    padding-top: 0;
+}
