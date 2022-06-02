@@ -318,3 +318,64 @@ align-items: center;
     padding: 2rem;
     padding-top: 0;
 }
+.review .slide{
+    padding: 2rem;
+    box-shadow:  0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    position: relative;
+    border: .1rem;
+    
+}
+.review .slide .fa-quote-right{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: #ccc;
+}
+.review .slide .user{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.review .slide .user h3{
+    color: black;
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+.review .slide .user i{
+    font-size: 1.5rem;
+    line-height: 1.8;
+
+}
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: red;
+}
+.review .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    gap: 1.5rem;
+}
+.footer .box-container .box h3{
+    padding: .5rem;
+    font-size: 2.5rem;
+    color: black;
+}
+.footer .box-container .box a{
+    display: block;
+    padding: 5rem 0;
+    font-size: 1.5rem;
+    color: black;
+}
+.footer .box-container .box a:hover{
+    color: red;
+    text-decoration: underline;
+}
